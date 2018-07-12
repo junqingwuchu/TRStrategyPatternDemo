@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDD15D4820F71D4B00739322 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD15D4720F71D4B00739322 /* AppDelegate.m */; };
+		FDD15D4B20F71D4B00739322 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD15D4A20F71D4B00739322 /* ViewController.m */; };
+		FDD15D4E20F71D4B00739322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD15D4C20F71D4B00739322 /* Main.storyboard */; };
+		FDD15D5020F71D4C00739322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD15D4F20F71D4C00739322 /* Assets.xcassets */; };
+		FDD15D5320F71D4C00739322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD15D5120F71D4C00739322 /* LaunchScreen.storyboard */; };
+		FDD15D5620F71D4C00739322 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD15D5520F71D4C00739322 /* main.m */; };
+		FDD15D6020F71D4C00739322 /* TRStrategyPatternDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD15D5F20F71D4C00739322 /* TRStrategyPatternDemoUITests.m */; };
+		FDD15D7320F7219300739322 /* CommodityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD15D7020F7219300739322 /* CommodityModel.m */; };
+		FDD15D7720F7233700739322 /* ChooseTypeController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD15D7520F7233700739322 /* ChooseTypeController.m */; };
+		FDD15D7820F7233700739322 /* ChooseTypeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDD15D7620F7233700739322 /* ChooseTypeController.xib */; };
+		FDD15D7B20F7366600739322 /* PromotionBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD15D7A20F7366600739322 /* PromotionBase.m */; };
+		FDD15D7E20F7372B00739322 /* PromotionType.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD15D7D20F7372B00739322 /* PromotionType.m */; };
+		FDD15D8120F738DA00739322 /* PromotionNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD15D8020F738DA00739322 /* PromotionNormal.m */; };
+		FDD15D8420F738EC00739322 /* PromotionDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD15D8320F738EC00739322 /* PromotionDiscount.m */; };
+		FDD15D8720F738FB00739322 /* PromotionFull.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD15D8620F738FB00739322 /* PromotionFull.m */; };
+		FDD15D8A20F7390A00739322 /* PromotionReduce.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD15D8920F7390A00739322 /* PromotionReduce.m */; };
+		FDD15D8D20F73D1500739322 /* ConfigPromotion.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD15D8C20F73D1500739322 /* ConfigPromotion.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDD15D5C20F71D4C00739322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDD15D3B20F71D4B00739322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD15D4220F71D4B00739322;
+			remoteInfo = TRStrategyPatternDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDD15D4320F71D4B00739322 /* TRStrategyPatternDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRStrategyPatternDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD15D4620F71D4B00739322 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDD15D4720F71D4B00739322 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDD15D4920F71D4B00739322 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDD15D4A20F71D4B00739322 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDD15D4D20F71D4B00739322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDD15D4F20F71D4C00739322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDD15D5220F71D4C00739322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDD15D5420F71D4C00739322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD15D5520F71D4C00739322 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDD15D5B20F71D4C00739322 /* TRStrategyPatternDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRStrategyPatternDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD15D5F20F71D4C00739322 /* TRStrategyPatternDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRStrategyPatternDemoUITests.m; sourceTree = "<group>"; };
+		FDD15D6120F71D4C00739322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD15D6F20F7219300739322 /* CommodityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommodityModel.h; sourceTree = "<group>"; };
+		FDD15D7020F7219300739322 /* CommodityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommodityModel.m; sourceTree = "<group>"; };
+		FDD15D7420F7233700739322 /* ChooseTypeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChooseTypeController.h; sourceTree = "<group>"; };
+		FDD15D7520F7233700739322 /* ChooseTypeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseTypeController.m; sourceTree = "<group>"; };
+		FDD15D7620F7233700739322 /* ChooseTypeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseTypeController.xib; sourceTree = "<group>"; };
+		FDD15D7920F7366600739322 /* PromotionBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PromotionBase.h; sourceTree = "<group>"; };
+		FDD15D7A20F7366600739322 /* PromotionBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromotionBase.m; sourceTree = "<group>"; };
+		FDD15D7C20F7372B00739322 /* PromotionType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PromotionType.h; sourceTree = "<group>"; };
+		FDD15D7D20F7372B00739322 /* PromotionType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromotionType.m; sourceTree = "<group>"; };
+		FDD15D7F20F738DA00739322 /* PromotionNormal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PromotionNormal.h; sourceTree = "<group>"; };
+		FDD15D8020F738DA00739322 /* PromotionNormal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromotionNormal.m; sourceTree = "<group>"; };
+		FDD15D8220F738EC00739322 /* PromotionDiscount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PromotionDiscount.h; sourceTree = "<group>"; };
+		FDD15D8320F738EC00739322 /* PromotionDiscount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromotionDiscount.m; sourceTree = "<group>"; };
+		FDD15D8520F738FB00739322 /* PromotionFull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PromotionFull.h; sourceTree = "<group>"; };
+		FDD15D8620F738FB00739322 /* PromotionFull.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromotionFull.m; sourceTree = "<group>"; };
+		FDD15D8820F7390A00739322 /* PromotionReduce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PromotionReduce.h; sourceTree = "<group>"; };
+		FDD15D8920F7390A00739322 /* PromotionReduce.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromotionReduce.m; sourceTree = "<group>"; };
+		FDD15D8B20F73D1500739322 /* ConfigPromotion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigPromotion.h; sourceTree = "<group>"; };
+		FDD15D8C20F73D1500739322 /* ConfigPromotion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfigPromotion.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDD15D4020F71D4B00739322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD15D5820F71D4C00739322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDD15D3A20F71D4B00739322 = {
+			isa = PBXGroup;
+			children = (
+				FDD15D4520F71D4B00739322 /* TRStrategyPatternDemo */,
+				FDD15D5E20F71D4C00739322 /* TRStrategyPatternDemoUITests */,
+				FDD15D4420F71D4B00739322 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD15D4420F71D4B00739322 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD15D4320F71D4B00739322 /* TRStrategyPatternDemo.app */,
+				FDD15D5B20F71D4C00739322 /* TRStrategyPatternDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD15D4520F71D4B00739322 /* TRStrategyPatternDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FDD15D6A20F7219300739322 /* Demo */,
+				FDD15D4620F71D4B00739322 /* AppDelegate.h */,
+				FDD15D4720F71D4B00739322 /* AppDelegate.m */,
+				FDD15D4C20F71D4B00739322 /* Main.storyboard */,
+				FDD15D4F20F71D4C00739322 /* Assets.xcassets */,
+				FDD15D5120F71D4C00739322 /* LaunchScreen.storyboard */,
+				FDD15D5420F71D4C00739322 /* Info.plist */,
+				FDD15D5520F71D4C00739322 /* main.m */,
+			);
+			path = TRStrategyPatternDemo;
+			sourceTree = "<group>";
+		};
+		FDD15D5E20F71D4C00739322 /* TRStrategyPatternDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDD15D5F20F71D4C00739322 /* TRStrategyPatternDemoUITests.m */,
+				FDD15D6120F71D4C00739322 /* Info.plist */,
+			);
+			path = TRStrategyPatternDemoUITests;
+			sourceTree = "<group>";
+		};
+		FDD15D6A20F7219300739322 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FDD15D6B20F7219300739322 /* Controller */,
+				FDD15D6E20F7219300739322 /* Model */,
+				FDD15D7120F7219300739322 /* Tool */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		FDD15D6B20F7219300739322 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FDD15D4920F71D4B00739322 /* ViewController.h */,
+				FDD15D4A20F71D4B00739322 /* ViewController.m */,
+				FDD15D7420F7233700739322 /* ChooseTypeController.h */,
+				FDD15D7520F7233700739322 /* ChooseTypeController.m */,
+				FDD15D7620F7233700739322 /* ChooseTypeController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FDD15D6E20F7219300739322 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDD15D6F20F7219300739322 /* CommodityModel.h */,
+				FDD15D7020F7219300739322 /* CommodityModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FDD15D7120F7219300739322 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				FDD15D7920F7366600739322 /* PromotionBase.h */,
+				FDD15D7A20F7366600739322 /* PromotionBase.m */,
+				FDD15D7F20F738DA00739322 /* PromotionNormal.h */,
+				FDD15D8020F738DA00739322 /* PromotionNormal.m */,
+				FDD15D8220F738EC00739322 /* PromotionDiscount.h */,
+				FDD15D8320F738EC00739322 /* PromotionDiscount.m */,
+				FDD15D8520F738FB00739322 /* PromotionFull.h */,
+				FDD15D8620F738FB00739322 /* PromotionFull.m */,
+				FDD15D8820F7390A00739322 /* PromotionReduce.h */,
+				FDD15D8920F7390A00739322 /* PromotionReduce.m */,
+				FDD15D8B20F73D1500739322 /* ConfigPromotion.h */,
+				FDD15D8C20F73D1500739322 /* ConfigPromotion.m */,
+				FDD15D7C20F7372B00739322 /* PromotionType.h */,
+				FDD15D7D20F7372B00739322 /* PromotionType.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDD15D4220F71D4B00739322 /* TRStrategyPatternDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD15D6420F71D4C00739322 /* Build configuration list for PBXNativeTarget "TRStrategyPatternDemo" */;
+			buildPhases = (
+				FDD15D3F20F71D4B00739322 /* Sources */,
+				FDD15D4020F71D4B00739322 /* Frameworks */,
+				FDD15D4120F71D4B00739322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRStrategyPatternDemo;
+			productName = TRStrategyPatternDemo;
+			productReference = FDD15D4320F71D4B00739322 /* TRStrategyPatternDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDD15D5A20F71D4C00739322 /* TRStrategyPatternDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD15D6720F71D4C00739322 /* Build configuration list for PBXNativeTarget "TRStrategyPatternDemoUITests" */;
+			buildPhases = (
+				FDD15D5720F71D4C00739322 /* Sources */,
+				FDD15D5820F71D4C00739322 /* Frameworks */,
+				FDD15D5920F71D4C00739322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDD15D5D20F71D4C00739322 /* PBXTargetDependency */,
+			);
+			name = TRStrategyPatternDemoUITests;
+			productName = TRStrategyPatternDemoUITests;
+			productReference = FDD15D5B20F71D4C00739322 /* TRStrategyPatternDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDD15D3B20F71D4B00739322 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Tracky;
+				TargetAttributes = {
+					FDD15D4220F71D4B00739322 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FDD15D5A20F71D4C00739322 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FDD15D4220F71D4B00739322;
+					};
+				};
+			};
+			buildConfigurationList = FDD15D3E20F71D4B00739322 /* Build configuration list for PBXProject "TRStrategyPatternDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDD15D3A20F71D4B00739322;
+			productRefGroup = FDD15D4420F71D4B00739322 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD15D4220F71D4B00739322 /* TRStrategyPatternDemo */,
+				FDD15D5A20F71D4C00739322 /* TRStrategyPatternDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDD15D4120F71D4B00739322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD15D7820F7233700739322 /* ChooseTypeController.xib in Resources */,
+				FDD15D5320F71D4C00739322 /* LaunchScreen.storyboard in Resources */,
+				FDD15D5020F71D4C00739322 /* Assets.xcassets in Resources */,
+				FDD15D4E20F71D4B00739322 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD15D5920F71D4C00739322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDD15D3F20F71D4B00739322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD15D4B20F71D4B00739322 /* ViewController.m in Sources */,
+				FDD15D8A20F7390A00739322 /* PromotionReduce.m in Sources */,
+				FDD15D8420F738EC00739322 /* PromotionDiscount.m in Sources */,
+				FDD15D7720F7233700739322 /* ChooseTypeController.m in Sources */,
+				FDD15D7E20F7372B00739322 /* PromotionType.m in Sources */,
+				FDD15D5620F71D4C00739322 /* main.m in Sources */,
+				FDD15D8120F738DA00739322 /* PromotionNormal.m in Sources */,
+				FDD15D8720F738FB00739322 /* PromotionFull.m in Sources */,
+				FDD15D4820F71D4B00739322 /* AppDelegate.m in Sources */,
+				FDD15D8D20F73D1500739322 /* ConfigPromotion.m in Sources */,
+				FDD15D7B20F7366600739322 /* PromotionBase.m in Sources */,
+				FDD15D7320F7219300739322 /* CommodityModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD15D5720F71D4C00739322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD15D6020F71D4C00739322 /* TRStrategyPatternDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDD15D5D20F71D4C00739322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDD15D4220F71D4B00739322 /* TRStrategyPatternDemo */;
+			targetProxy = FDD15D5C20F71D4C00739322 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDD15D4C20F71D4B00739322 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD15D4D20F71D4B00739322 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDD15D5120F71D4C00739322 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD15D5220F71D4C00739322 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDD15D6220F71D4C00739322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDD15D6320F71D4C00739322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDD15D6520F71D4C00739322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 495KMY7K3E;
+				INFOPLIST_FILE = TRStrategyPatternDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tracky.TRStrategyPatternDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDD15D6620F71D4C00739322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 495KMY7K3E;
+				INFOPLIST_FILE = TRStrategyPatternDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tracky.TRStrategyPatternDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDD15D6820F71D4C00739322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TRStrategyPatternDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tracky.TRStrategyPatternDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TRStrategyPatternDemo;
+			};
+			name = Debug;
+		};
+		FDD15D6920F71D4C00739322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TRStrategyPatternDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tracky.TRStrategyPatternDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TRStrategyPatternDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDD15D3E20F71D4B00739322 /* Build configuration list for PBXProject "TRStrategyPatternDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD15D6220F71D4C00739322 /* Debug */,
+				FDD15D6320F71D4C00739322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD15D6420F71D4C00739322 /* Build configuration list for PBXNativeTarget "TRStrategyPatternDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD15D6520F71D4C00739322 /* Debug */,
+				FDD15D6620F71D4C00739322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD15D6720F71D4C00739322 /* Build configuration list for PBXNativeTarget "TRStrategyPatternDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD15D6820F71D4C00739322 /* Debug */,
+				FDD15D6920F71D4C00739322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDD15D3B20F71D4B00739322 /* Project object */;
+}
