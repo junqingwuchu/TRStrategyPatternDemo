@@ -1,0 +1,2 @@
+# TRStrategyPatternDemo
+iOS中运用策略设计模式，项目中运用策略设计模式提供价格的算法
